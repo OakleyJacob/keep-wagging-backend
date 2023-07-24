@@ -84,3 +84,4 @@ production:
   database: keep_wagging_app_backend_production
   username: keep_wagging_app_backend
   password: <%= ENV["KEEP_WAGGING_APP_BACKEND_DATABASE_PASSWORD"] %>
+  url: <%= ENV["DATABASE_URL"] %>
