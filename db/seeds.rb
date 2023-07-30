@@ -106,7 +106,6 @@ user1_dogs.each do |dog|
     p "created: #{dog}"
   end
 
-
-
+Donation.create(amount: 150.25)
 
 
