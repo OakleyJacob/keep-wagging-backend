@@ -1,24 +1,33 @@
-# README
+## Summary of app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Keep-Wagging backend serves as the foundation for our web application. It enables user authentication, allowing users to create accounts and log in securely. Once logged in, users have full CRUD (Create, Read, Update, Delete) functionality to interact with our site's resources. This backend is designed to provide a seamless and secure experience for our users as they navigate and interact with our web application.
 
-Things you may want to cover:
+## Ruby Version
+This project uses Ruby version 3.2.0. It's recommended to use a version manager like RVM or rbenv to manage your Ruby environment.
 
-* Ruby version
+## System Dependencies
+The following system dependencies are required to run the project:
 
-* System dependencies
+PostgreSQL
+Devise
+Ruby on Rails
+Rspec
+This is merely a back-end API, so postman or a front-end is also required.
 
-* Configuration
+## Database
+# Database Creation
+To create the database, run the following commands:
 
-* Database creation
+rails db:create
+rails db:migrate
+# Database Initialization
+To initialize the database with seed data (if applicable), run:
 
-* Database initialization
+rails db:seed
+## Testing
+This project uses RSpec for testing.
 
-* How to run the test suite
+# Running the Test Suite
+To run the test suite, execute the following command:
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+bundle exec rspec
